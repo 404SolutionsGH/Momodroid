@@ -50,5 +50,5 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 
 ***Contact***
-For any questions or support, please contact [your-email@example.com].
+For any questions or support, please contact developerkoose@gmail.com/herbertharthur80@gmail.com.
 
