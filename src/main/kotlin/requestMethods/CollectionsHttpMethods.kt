@@ -21,12 +21,14 @@ fun requestToPay(@Header("Authorization")accessToken:String
 
 
 //requestToPay with callbackUrl
+@POST("/requesttopay")
 fun requestToPay(@Header("Authorization")accessToken:String
 ,@Header("X-Reference-Id")referenceId:String,@Header("X-Target-Environment")targetEnv:String
 ,@Header("X-Callback-Url")callBackUrl:String): Call<Void>
 
 
 //requestToPay with callbackUrl with body
+@POST("/requesttopay")
 fun requestToPay(@Header("Authorization")accessToken:String
 ,@Header("X-Reference-Id")referenceId:String,@Header("X-Target-Environment")targetEnv:String
 ,@Header("X-Callback-Url")callBackUrl:String,@Body requestBody:RequestToPayBody): Call<Void>
