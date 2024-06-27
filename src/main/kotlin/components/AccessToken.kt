@@ -3,12 +3,12 @@ package components
 import libs.Retrofit
 import requestMethods.AccessTokenHttpMethods
 
-class AccessToken (private val url:String, private val apiKey:String){
+class AccessToken (private val url:String, private val apiKey:String,private  val subscriptionKey:String){
 
 
    fun get():String{
     //      getting access token
-    val response=  Retrofit(url).config(AccessTokenHttpMethods::class.java).getToken(apiKey).execute()
+    val response=  Retrofit(url).config(AccessTokenHttpMethods::class.java).getToken(apiKey,subscriptionKey).execute()
        if(response.isSuccessful){
            return response.body()!!.accessToken
      }
