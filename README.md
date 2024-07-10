@@ -27,8 +27,8 @@ The project is organized into the following directories and files:
 - ✅ Added necessary folders and components.
 - 🛠️ Created a `HelperMethod.kt` file in the `components` folder containing a try-catch wrapper for methods performing long asynchronous tasks.
 - 🛠️ Added a file responsible for configuring the Retrofit library.
-- 🛠️ Implemented a base interface which all network request classes will inherit from.
-
+- 🛠️ Implemented the component for  getting the  Access Token for accessing the (Issue) 
+- 🛠️ Started a component through which the Collection product's Api can be accessed(Uncompleted)
 ## Future Work
 
 - 🚀 **Complete Functionalities for the Collection Product**: Finalize the implementation of all functionalities related to the collection product.
